@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
+<title>全季西安咸阳国际机场T5航站楼酒店</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#B5835A;--primary-dark:#8B6340;--primary-light:#D4A574;--bg:#FDF8F3;--bg-card:#FFFFFF;--text:#2C2C2C;--text-light:#7A7A7A;--border:#E8DDD0;--radius:12px}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--primary);text-decoration:none}
+.container{max-width:640px;margin:0 auto;padding:0}
+.hero{padding:0;text-align:center;position:relative;overflow:hidden;min-height:400px;display:flex;align-items:center;justify-content:center}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.65) 100%);z-index:1}
+.hero-content{position:relative;z-index:2;padding:50px 24px 60px;width:100%}
+.hero-badge{display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:11px;padding:4px 16px;border-radius:20px;margin-bottom:12px;letter-spacing:2px}
+.hero h1{color:#fff;font-size:26px;font-weight:700;margin-bottom:4px;letter-spacing:4px;text-shadow:0 2px 8px rgba(0,0,0,0.3)}
+.hero .subtitle{color:rgba(255,255,255,0.9);font-size:14px;margin-bottom:6px;letter-spacing:2px;text-shadow:0 1px 4px rgba(0,0,0,0.3)}
+.hero-phone{color:#fff;font-size:22px;font-weight:700;letter-spacing:3px;margin-bottom:18px;text-shadow:0 1px 4px rgba(0,0,0,0.3)}
+.hero-phone::before{content:'☎️ ';font-size:18px}
+.hero-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:8px}
+.hero-tags span{background:rgba(255,255,255,0.12);color:#fff;font-size:11px;padding:5px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.2);backdrop-filter:blur(4px)}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:50px;background:linear-gradient(transparent,var(--bg));z-index:3}
+.section{padding:32px 20px;background:var(--bg-card);margin-bottom:10px}
+.section:first-of-type{margin-top:0}
+.section-title{font-size:18px;font-weight:600;color:var(--text);margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--primary);display:flex;align-items:center;gap:8px}
+.section-title-en{font-size:11px;color:var(--text-light);font-weight:400;letter-spacing:1px}
+.intro-text{font-size:14px;color:var(--text);line-height:1.9;text-indent:2em}
+.intro-highlight{background:linear-gradient(135deg,var(--bg),#FFF);border-left:3px solid var(--primary);padding:14px 16px;margin:16px 0;border-radius:0 var(--radius) var(--radius) 0;font-size:13px;color:var(--text-light)}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.gallery img{width:100%;height:200px;object-fit:cover;border-radius:8px}
+.features-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.feature-card{background:var(--bg);border-radius:var(--radius);padding:16px;text-align:center;border:1px solid var(--border);transition:all .3s}
+.feature-card:hover{border-color:var(--primary-light);box-shadow:0 2px 12px rgba(181,131,90,0.1)}
+.feature-icon{font-size:28px;margin-bottom:8px;display:block}
+.feature-name{font-size:14px;font-weight:500;color:var(--text)}
+.feature-desc{font-size:12px;color:var(--text-light);margin-top:4px}
+.guide-section{background:var(--bg);border-radius:var(--radius);padding:20px;margin-bottom:14px;border:1px solid var(--border)}
+.guide-section:last-child{margin-bottom:0}
+.guide-title{font-size:16px;font-weight:600;color:var(--primary-dark);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.guide-item{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px dashed var(--border);font-size:14px;line-height:1.6}
+.guide-item:last-child{border-bottom:none}
+.guide-item .label{color:var(--primary);font-weight:500;white-space:nowrap;min-width:70px}
+.guide-item .value{color:var(--text)}
+.divider{text-align:center;padding:12px 0;color:var(--text-light);font-size:12px;position:relative}
+.divider::before,.divider::after{content:'';position:absolute;top:50%;width:30%;height:1px;background:var(--border)}
+.divider::before{left:5%}
+.divider::after{right:5%}
+.contact-card{background:linear-gradient(135deg,var(--primary-dark),var(--primary));border-radius:var(--radius);padding:24px;color:#fff;margin-top:12px}
+.contact-row{display:flex;align-items:center;gap:12px;padding:8px 0;font-size:14px;border-bottom:1px solid rgba(255,255,255,0.15)}
+.contact-row:last-child{border-bottom:none}
+.contact-row .icon{font-size:18px;width:24px;text-align:center}
+.contact-phone{font-size:22px;font-weight:700;letter-spacing:1px}
+.contact-wechat{display:flex;align-items:center;gap:12px;margin-top:8px}
+.map-container{background:#E8DDD0;border-radius:var(--radius);height:240px;margin-top:12px;overflow:hidden;position:relative}
+.map-container iframe{width:100%;height:100%;border:0}
+.map-buttons{display:flex;gap:8px;margin-top:10px}
+.map-btn{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border-radius:8px;font-size:13px;font-weight:500;text-decoration:none;transition:all .3s;cursor:pointer;border:none}
+.map-btn-amap{background:#1A73E8;color:#fff}
+.map-btn-amap:hover{background:#1557B0}
+.map-btn-apple{background:#34C759;color:#fff}
+.map-btn-apple:hover{background:#2DB84E}
+.poi-list{display:flex;flex-direction:column;gap:10px}
+.poi-item{display:flex;align-items:flex-start;gap:12px;padding:12px;background:var(--bg);border-radius:var(--radius);border:1px solid var(--border)}
+.poi-icon{font-size:24px;width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:var(--bg-card);border-radius:50%;flex-shrink:0}
+.poi-info h4{font-size:13px;font-weight:600;color:var(--text);margin-bottom:2px}
+.poi-info p{font-size:13px;color:var(--text-light);line-height:1.5}
+.poi-nav{margin-top:5px;display:flex;align-items:center;gap:4px;font-size:12px;color:var(--text-light)}
+.poi-nav .nav-icon{font-size:12px}
+.poi-nav a{color:var(--primary);text-decoration:none;transition:opacity .2s}
+.poi-nav a:hover{opacity:.7}
+.poi-nav .sep{color:var(--border);margin:0 3px}
+.footer{text-align:center;padding:24px 20px 32px;color:var(--text-light);font-size:12px}
+.footer .brand{font-size:14px;color:var(--primary);font-weight:500;margin-bottom:4px}
+.to-top{position:fixed;bottom:24px;right:24px;width:44px;height:44px;background:var(--primary);color:#fff;border:none;border-radius:50%;font-size:20px;cursor:pointer;box-shadow:0 2px 12px rgba(181,131,90,0.3);opacity:0;transition:all .3s;z-index:100}
+.to-top.show{opacity:1}
+@media(min-width:768px){
+.hero{min-height:500px}
+.hero h1{font-size:32px}
+.hero .subtitle{font-size:16px}
+.hero-phone{font-size:26px}
+.gallery{grid-template-columns:1fr 1fr 1fr}
+.gallery img{height:220px}
+.features-grid{grid-template-columns:1fr 1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img class="hero-bg" src="images/hotel-room.jpg" alt="酒店客房">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">HUAZHU · JI HOTEL</div>
+    <h1>全季酒店</h1>
+    <p class="subtitle">西安咸阳国际机场T5航站楼店</p>
+    <div class="hero-phone">029-33268555</div>
+    <div class="hero-tags">
+      <span>免费接送机</span>
+      <span>免费停车</span>
+      <span>自助洗衣</span>
+      <span>健身房</span>
+      <span>机器人服务</span>
+      <span>智能客房</span>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="section-title">酒店简介<span class="section-title-en">Hotel Introduction</span></div>
+  <p class="intro-text">全季酒店（西安咸阳国际机场T5航站楼店）是华住集团旗下全季品牌门店，坐落于空港新城核心区域，距离西安咸阳国际机场T5航站楼仅数分钟车程。酒店延续全季5.0晓山青版本设计理念，以东方美学与现代功能相融合，为往来旅客打造温暖、便捷、高效的机场中转休憩空间。</p>
+  <p class="intro-text">酒店提供免费机场接送机服务，覆盖T2、T3、T5所有航站楼，让您的出行无缝衔接。全屋智能语音客控、护脊舒眠床垫、干湿分离卫浴，无论您是商务出行、转机小憩还是家庭旅行，都能在此卸下旅途疲惫，感受"舒适至上，服务第一"的全季待客之道。</p>
+  <div class="intro-highlight">感谢您选择入住全季西安咸阳国际机场T5航站楼酒店。如需帮助请随时联系我们，期待您的光临！</div>
+</section>
+
+<section class="section">
+  <div class="section-title">酒店实景<span class="section-title-en">Gallery</span></div>
+  <div class="gallery">
+    <img src="images/hotel-real-1.jpg" alt="酒店客房">
+    <img src="images/hotel-real-2.jpg" alt="酒店环境">
+    <img src="images/hotel-real-3.jpg" alt="酒店设施">
+    <img src="images/hotel-real-4.jpg" alt="酒店大堂">
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">入住指南<span class="section-title-en">Check-in Guide</span></div>
+
+  <div class="guide-section">
+    <div class="guide-title">🏣 客房服务</div>
+    <div class="guide-item"><span class="label">服务热线</span><span class="value">在店期间需要服务请致电房间电话 <strong>"0"</strong> 呼叫服务</span></div>
+    <div class="guide-item"><span class="label">外卖配送</span><span class="value">点外卖地址备注好房号，机器人送至房间</span></div>
+    <div class="guide-item"><span class="label">WiFi</span><span class="value">账号：<strong>HUAZHU-JiHotel</strong>（无密码）</span></div>
+    <div class="guide-item"><span class="label">停车服务</span><span class="value">车辆出场在前台扫码即可</span></div>
+    <div class="guide-item"><span class="label">温馨提示</span><span class="value">未成年人入住请记得带户口本</span></div>
+  </div>
+
+  <div class="guide-section">
+    <div class="guide-title">🍔 餐饮 & 健身</div>
+    <div class="guide-item"><span class="label">早餐厅</span><span class="value">酒店1楼 · 用餐时间 <strong>07:00-10:00</strong> · 携带早餐券到餐厅即可</span></div>
+    <div class="guide-item"><span class="label">健身房</span><span class="value">酒店2楼 · 全天<strong>24小时</strong>开放</span></div>
+    <div class="guide-item"><span class="label">洗衣房</span><span class="value">酒店2楼 · 自助洗衣机、烘干机，免费使用</span></div>
+  </div>
+
+  <div class="guide-section">
+    <div class="guide-title">✈️ 免费接送机</div>
+    <div class="guide-item"><span class="label">接机方式</span><span class="value">T2/T3/T5航站楼 · 落地取完行李致电前台，约等待10~15分钟</span></div>
+    <div class="guide-item"><span class="label">送机方式</span><span class="value">需办理入住时预约 · 每1小时一班，整点发车 · 覆盖T2/T3/T5航站楼</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">客房设施<span class="section-title-en">Room Facilities</span></div>
+  <div class="features-grid">
+    <div class="feature-card"><span class="feature-icon">🪟</span><div class="feature-name">智能语音客控</div><div class="feature-desc">语音调控灯光、空调、窗帘</div></div>
+    <div class="feature-card"><span class="feature-icon">🛀</span><div class="feature-name">护脊舒眠床垫</div><div class="feature-desc">高支棉床品，静音隔音门窗</div></div>
+    <div class="feature-card"><span class="feature-icon">🛡</span><div class="feature-name">干湿分离卫浴</div><div class="feature-desc">防雾美妆镜，品牌洗护套装</div></div>
+    <div class="feature-card"><span class="feature-icon">🍵</span><div class="feature-name">哲品定制茶具</div><div class="feature-desc">免费瓶装水，办公书桌</div></div>
+    <div class="feature-card"><span class="feature-icon">🛏</span><div class="feature-name">遮光窗帘</div><div class="feature-desc">优质遮光，安享整夜好眠</div></div>
+    <div class="feature-card"><span class="feature-icon">🌅</span><div class="feature-name">恒温淋浴</div><div class="feature-desc">恒定水温，舒适沐浴体验</div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">公共配套<span class="section-title-en">Public Amenities</span></div>
+  <div class="features-grid">
+    <div class="feature-card"><span class="feature-icon">🍔</span><div class="feature-name">自助早餐厅</div><div class="feature-desc">1楼 · 07:00-10:00 · 清淡杂粮面点热菜</div></div>
+    <div class="feature-card"><span class="feature-icon">🏸</span><div class="feature-name">健身房</div><div class="feature-desc">2楼 · 24小时开放 · 跑步机力量器械</div></div>
+    <div class="feature-card"><span class="feature-icon">👕</span><div class="feature-name">自助洗衣房</div><div class="feature-desc">2楼 · 洗衣机烘干机 · 免费使用</div></div>
+    <div class="feature-card"><span class="feature-icon">🤖</span><div class="feature-name">智能机器人</div><div class="feature-desc">客房送货 · 无接触配送</div></div>
+    <div class="feature-card"><span class="feature-icon">🅿️</span><div class="feature-name">免费停车场</div><div class="feature-desc">住客凭房卡进出</div></div>
+    <div class="feature-card"><span class="feature-icon">📱</span><div class="feature-name">全楼WiFi</div><div class="feature-desc">HUAZHU-JiHotel 无密码</div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">酒店周边<span class="section-title-en">Area Information</span></div>
+
+  <div class="guide-section">
+    <div class="guide-title">01 · 交通枢纽</div>
+    <div class="poi-list">
+      <div class="poi-item">
+        <div class="poi-icon">✈️</div>
+        <div class="poi-info">
+          <h4>西安咸阳国际机场T5航站楼</h4>
+          <p>直线距离4.3km，酒店提供免费接送机服务</p>
+          <div class="poi-nav">
+            <span class="nav-icon">📍</span>
+            <a href="https://uri.amap.com/search?query=西安咸阳国际机场T5航站楼" target="_blank" rel="noopener">高德地图</a>
+            <span class="sep">|</span>
+            <a href="http://maps.apple.com/?q=西安咸阳国际机场T5航站楼" target="_blank" rel="noopener">苹果地图</a>
+          </div>
+        </div>
+      </div>
+      <div class="poi-item">
+        <div class="poi-icon">✈️</div>
+        <div class="poi-info">
+          <h4>西安咸阳国际机场T2/T3航站楼</h4>
+          <p>直线距离5.3km，免费接送机覆盖，落地致电前台约等10~15分钟</p>
+          <div class="poi-nav">
+            <span class="nav-icon">📍</span>
+            <a href="https://uri.amap.com/search?query=西安咸阳国际机场T2航站楼" target="_blank" rel="noopener">高德地图</a>
+            <span class="sep">|</span>
+            <a href="http://maps.apple.com/?q=西安咸阳国际机场T2航站楼" target="_blank" rel="noopener">苹果地图</a>
+          </div>
+        </div>
+      </div>
+      <div class="poi-item">
+        <div class="poi-icon">🚇</div>
+        <div class="poi-info">
+          <h4>空港新城地铁站（14号线）</h4>
+          <p>距酒店约1.4km，驾车5分钟路程，地铁14号线直达</p>
+          <div class="poi-nav">
+            <span class="nav-icon">📍</span>
+            <a href="https://uri.amap.com/search?query=空港新城地铁站" target="_blank" rel="noopener">高德地图</a>
+            <span class="sep">|</span>
+            <a href="http://maps.apple.com/?q=空港新城地铁站" target="_blank" rel="noopener">苹果地图</a>
+          </div>
+        </div>
+      </div>
+      <div class="poi-item">
+        <div class="poi-icon">🚄</div>
+        <div class="poi-info">
+          <h4>西安北站（高铁站）</h4>
+          <p>距酒店直线12.6km，驾车约20分钟，地铁14号线可直达</p>
+          <div class="poi-nav">
+            <span class="nav-icon">📍</span>
+            <a href="https://uri.amap.com/search?query=西安北站" target="_blank" rel="noopener">高德地图</a>
+            <span class="sep">|</span>
+            <a href="http://maps.apple.com/?q=西安北站" target="_blank" rel="noopener">苹果地图</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="guide-section">
+    <div class="guide-title">02 · 周边景点</div>
+    <div class="poi-list">
+      <div class="poi-item">
+        <div class="poi-icon">🏛️</div>
+        <div class="poi-info">
+          <h4>西安咸阳国际机场</h4>
+          <p>西北地区最大航空枢纽，T5航站楼已开通运营</p>
+        </div>
+      </div>
+      <div class="poi-item">
+        <div class="poi-icon">🏛️</div>
+        <div class="poi-info">
+          <h4>西安市区</h4>
+          <p>钟楼、大雁塔、大唐不夜城等，机场大巴/地铁可达</p>
+        </div>
+      </div>
+      <div class="poi-item">
+        <div class="poi-icon">🏛️</div>
+        <div class="poi-info">
+          <h4>咸阳市区</h4>
+          <p>咸阳湖、清渭楼、咸阳博物馆等，感受秦风古韵</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">关于全季<span class="section-title-en">About Ji Hotel</span></div>
+  <div style="text-align:center;padding:12px 0">
+    <div style="font-size:20px;font-weight:600;color:var(--primary-dark);margin-bottom:8px">舒适至上 · 服务第一</div>
+    <p style="font-size:14px;color:var(--text-light);line-height:1.8">
+      我们不仅仅是酒店<br>
+      我们是您旅途中的诗意栖居<br>
+      让每一次停留都充满灵感
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">联系我们<span class="section-title-en">Contact Us</span></div>
+
+  <div style="margin-bottom:12px">
+    <div style="font-size:13px;color:var(--text-light);margin-bottom:4px">地址</div>
+    <div style="font-size:14px;font-weight:500">陕西省咸阳市渭城区空港新城幸福里4期7栋一楼</div>
+    <div class="map-container">
+      <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=108.725,34.447,108.745,34.459&layer=mapnik&marker=34.453,108.735" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="map-buttons">
+      <a class="map-btn map-btn-amap" href="https://uri.amap.com/search?query=全季酒店%20西安咸阳国际机场T5航站楼店" target="_blank" rel="noopener">高德地图 导航</a>
+      <a class="map-btn map-btn-apple" href="http://maps.apple.com/?ll=34.453,108.735&q=全季酒店%20西安咸阳国际机场T5航站楼店" target="_blank" rel="noopener">Apple 地图 导航</a>
+    </div>
+  </div>
+
+  <div class="contact-card">
+    <div class="contact-row">
+      <span class="icon">☎️</span>
+      <span>前台电话：<span class="contact-phone">029-33268555</span></span>
+    </div>
+    <div class="contact-row">
+      <span class="icon">📫</span>
+      <span>欢迎您随时与我们联系</span>
+    </div>
+    <div class="contact-wechat">
+      <div>
+        <div style="font-size:14px;font-weight:500;margin-bottom:4px">微信联系</div>
+        <div style="font-size:13px;opacity:0.9">17791640075</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="brand">全季西安咸阳国际机场T5航站楼酒店</div>
+  <p>华住集团 · 全季酒店</p>
+</footer>
+
+<button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+window.addEventListener('scroll',function(){
+  document.getElementById('toTop').classList.toggle('show',window.scrollY>400)
+})
+</script>
+</body>
+</html>
